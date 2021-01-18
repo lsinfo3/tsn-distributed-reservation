@@ -1,0 +1,6 @@
+
+- min_frame: 1000
+  max_frame: 1250
+  burst_rate: 50000
+  req_latency: 100000
+  priority: 4

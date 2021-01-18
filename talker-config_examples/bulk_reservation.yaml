@@ -1,0 +1,6 @@
+- min_udp: 0
+  max_udp: 1000
+  send_rate: 800000
+  req_latency: 100000
+  priority: 7
+  instances: 100
