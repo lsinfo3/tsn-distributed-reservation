@@ -4,8 +4,6 @@ This repository contains the implementation of a minimalistic reservation protoc
 Included are APIs for the talker- and listeners in such an environment, as well as a controller script that implements the protocol on an OpenFlow-supporting network switch (NEC PF5420).
 Whereas the APIs are of a generic nature, the controller script is, in large parts, adapted to that particular switch's telnet control interface.
 
-The foundation upon which this protocol has been created is the paper _Technical report on bridge-local guaranteed latency with strict priority scheduling_ by Grigorjew et al., which presents the theoretical model that allows for the deployment of real-time network streams without global knowledge of the network.
-
 An evaluation of this protocol in a hardware testbed has been made with the talker-, listener- and controller software each running on a seperate Raspberry Pi 3B device.
 The scripts used for generating measurements, their preprocessing and visualization are also included in this repository in the evaluation directory.
 
@@ -58,3 +56,14 @@ __SDN-Controller__
 ```
 ryu-manager src/controller.py
 ```
+
+# Authors
+
+This work is based on the distributed latency model from _Bounded Latency with Bridge-Local Stream Reservation and Strict Priority Queuing_ by Grigorjew et al., published on the _11th International Conference on Network of the Future (NoF) (2020)_.
+
+It has been implemented and applied in another paper, _Distributed Implementation of Deterministic Networking in Existing Non-TSN Ethernet Switches_, which is currently submitted for review. When referencing this work, please cite this paper by the following authors:
+
+* Alexej Grigorjew - alexej.grigorjew@uni-wuerzburg.de
+* Christian Baier - christian.baier@stud-mail.uni-wuerzburg.de
+* Florian Metzger - florian.metzger@uni-wuerzburg.de
+* Tobias Hoßfeld - tobias.hossfeld@uni-wuerzburg.de
