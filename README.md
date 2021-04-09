@@ -61,7 +61,7 @@ ryu-manager src/controller.py
 
 This work is based on the distributed latency model from _Bounded Latency with Bridge-Local Stream Reservation and Strict Priority Queuing_ by Grigorjew et al., published on the _11th International Conference on Network of the Future (NoF) (2020)_.
 
-It has been implemented and applied later in the paper, _Distributed Implementation of Deterministic Networking in Existing Non-TSN Ethernet Switches_, published in the _Workshop on Time-sensitive and Deterministic Networking_ of the _IEEE International Conference on Communications (ICC) 2021_. When referring to this work, please cite this paper by the following authors:
+It has been implemented and applied later in the paper: _Distributed Implementation of Deterministic Networking in Existing Non-TSN Ethernet Switches_, published in the _Workshop on Time-sensitive and Deterministic Networking_ of the _IEEE International Conference on Communications (ICC) 2021_. When referring to this work, please cite this paper by the following authors:
 
 * Alexej Grigorjew - alexej.grigorjew@uni-wuerzburg.de
 * Christian Baier - christian.baier@stud-mail.uni-wuerzburg.de
