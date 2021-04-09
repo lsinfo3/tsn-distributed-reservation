@@ -68,6 +68,6 @@ This work is based on the distributed latency model from _Bounded Latency with B
 
 It has been implemented and applied later in the paper:
 
-*_Distributed Implementation of Deterministic Networking in Existing Non-TSN Ethernet Switches_, Workshop on Time-sensitive and Deterministic Networking of the ICC 2021*.
+**_Distributed Implementation of Deterministic Networking in Existing Non-TSN Ethernet Switches_, Workshop on Time-sensitive and Deterministic Networking of the ICC, 2021**.
 
 When referring to this work, please cite this paper.
